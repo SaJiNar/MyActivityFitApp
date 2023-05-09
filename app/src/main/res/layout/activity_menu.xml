@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_app"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/fraseDiaBtn"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/menu_frase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/recetasBtn"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:text="@string/menu_recetas"
+        app:layout_constraintEnd_toStartOf="@+id/fraseDiaBtn"
+        app:layout_constraintTop_toBottomOf="@+id/fraseDiaBtn" />
+
+    <Button
+        android:id="@+id/saludBtn"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:text="@string/menu_salud"
+        app:layout_constraintStart_toEndOf="@+id/recetasBtn"
+        app:layout_constraintTop_toBottomOf="@+id/recetasBtn" />
+
+    <Button
+        android:id="@+id/calenBtn"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:text="@string/menu_rutinas"
+        app:layout_constraintEnd_toStartOf="@+id/saludBtn"
+        app:layout_constraintTop_toBottomOf="@+id/saludBtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">My Activity Fit</string>
+
+    //textos de menú principal
+    <string name="menu_frase">Frases Inspiradoras</string>
+    <string name="menu_recetas">Recetas</string>
+    <string name="menu_salud">Salud</string>
+    <string name="menu_rutinas">Rutinas</string>
+
+    //textos de la pantalla de la frase motivacional
+    <string name="frase_del_dia">Aquí encontrarás una frase motivacional cada día</string>
+    <string name="roll">¡Saca otra frase!</string>
+
+    //textos de la pantalla del calendario
+    <string name="calendario">Aquí encontrarás un calendario del mes en curso</string>
+
+    //textos de la pantalla de recetas
+    <string name="recetas">Aquí encontrarás recetas variadas</string>
+
+
+    //textos de la primera pantalla de salud
+    <string name="tv_hombre">HOMBRE</string>
+    <string name="tv_mujer">MUJER</string>
+    <string name="tv_altura">ALTURA</string>
+    <string name="tv_medida">120</string>
+    <string name="tv_peso">PESO</string>
+    <string name="tv_edad">EDAD</string>
+    <string name="btn_calcula">Calcula tu IMC</string>
+
+    //textos de la segunda pantalla de salud
+    <string name="tv_titulo_resultado">TU RESULTADO</string>
+    <string name="bajo_peso">BAJO PESO</string>
+    <string name="bajo_peso_descripcion">Estás por debajo de lo óptimo para tu peso y tu altura.</string>
+    <string name="peso_normal">PESO NORMAL</string>
+    <string name="peso_normal_descripcion">Estás en lo óptimo para tu peso y tu altura.</string>
+    <string name="sobrepeso">SOBREPESO</string>
+    <string name="sobrepeso_descripcion">Estás por encima de lo óptimo para tu peso y tu altura.</string>
+    <string name="obesidad">OBESIDAD</string>
+    <string name="obesidad_descripcion">Estás MUY por encima de lo óptimo para tu peso y tu altura.</string>
+    <string name="btn_recalcular">RECALCULAR</string>
+
+    <string name="mens_error">El cálculo es erróneo</string>
+
+
+</resources>
